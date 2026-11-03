@@ -73,7 +73,7 @@ export function AppShell({ children }: { children: ReactNode }) {
             <span className="rounded-lg bg-orange-500 p-1.5">
               <CalendarCheck className="text-white" size={18} aria-hidden />
             </span>
-            <span className="font-bold text-slate-900">Flashfire Attendance</span>
+            <span className="font-bold text-slate-900">Flashfire Attendance Portal</span>
           </Link>
           <div className="flex items-center gap-3">
             <div className="hidden min-w-32 text-right sm:block">

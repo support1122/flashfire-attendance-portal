@@ -1,4 +1,4 @@
-# Flashfire Attendance
+# Flashfire Attendance Portal
 
 Attendance and leave for the Flashfire team.
 Next.js 16 app with its API in route handlers, MongoDB through Mongoose, deployed as one Vercel project.

@@ -43,7 +43,7 @@ export const env = {
       user,
       pass,
       fromEmail: process.env.SMTP_FROM_EMAIL?.trim() || user,
-      fromName: process.env.SMTP_FROM_NAME?.trim() || "Flashfire Attendance",
+      fromName: process.env.SMTP_FROM_NAME?.trim() || "Flashfire Attendance Portal",
     };
   },
   isProduction: () => process.env.NODE_ENV === "production",

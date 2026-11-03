@@ -6,7 +6,7 @@ import "./globals.css";
 const geist = Geist({ variable: "--font-geist-sans", subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Flashfire Attendance",
+  title: "Flashfire Attendance Portal",
   description: "Attendance and leave for the Flashfire team",
   robots: { index: false, follow: false },
 };

@@ -49,7 +49,7 @@ function render(c: Content): Omit<Mail, "to"> {
     )
     .join("");
   const html = `<div style="font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;max-width:520px;margin:auto;padding:24px;color:#0f172a">
-  <p style="margin:0 0 6px;font-size:13px;color:#ea580c;font-weight:600">Flashfire Attendance</p>
+  <p style="margin:0 0 6px;font-size:13px;color:#ea580c;font-weight:600">Flashfire Attendance Portal</p>
   <h1 style="margin:0 0 16px;font-size:20px;line-height:1.3">${escapeHtml(c.heading)}</h1>
   <table style="border-collapse:collapse;margin:0 0 16px">${rows}</table>
   ${c.note ? `<p style="margin:0 0 16px;padding:12px 14px;background:#f8fafc;border-left:3px solid #cbd5e1;font-size:14px;color:#334155">${escapeHtml(c.note)}</p>` : ""}

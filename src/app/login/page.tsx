@@ -83,7 +83,7 @@ export default function LoginPage() {
             <CalendarCheck className="text-white" size={22} aria-hidden />
           </div>
           <div>
-            <h1 className="text-xl font-bold text-white">Flashfire Attendance</h1>
+            <h1 className="text-xl font-bold text-white">Flashfire Attendance Portal</h1>
             <p className="text-sm text-slate-300">Sign in with your work email</p>
           </div>
         </div>
